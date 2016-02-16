@@ -1,0 +1,31 @@
+{
+  "name": "butter-provider-tvapi",
+  "version": "0.1.0",
+  "description": "A Butter provider for TV API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butterproviders/butter-provider-tvapi.git"
+  },
+  "keywords": [
+    "tvapi",
+    "butter",
+    "streaming"
+  ],
+  "author": "Niv Sardi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/butterproviders/butter-provider-tvapi/issues"
+  },
+  "homepage": "https://github.com/butterproviders/butter-provider-tvapi#readme",
+  "dependencies": {
+    "butter-provider": "^0.1.0",
+    "butter-sanitize": "^0.1.0",
+    "lodash": "^3.10.1",
+    "node-tvdb": "^1.6.1",
+    "q": "^1.4.1"
+  }
+}
